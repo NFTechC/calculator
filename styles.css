@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(45deg, #060047, #b3005e);
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  overflow: hidden;
+}
+
+td {
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  height: 15vh;
+  padding: auto;
+  margin: auto;
+}
+
+table {
+  color: white;
+  text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+td:hover {
+  background-color: #060047;
+  cursor: pointer;
+}
+
+#result {
+  height: 40vh;
+  pointer-events: none;
+  overflow: hidden;
+  font-size: auto;
+}
+#equals {
+  background-color: #060047;
+}

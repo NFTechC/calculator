@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway&family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="5" id="result"></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td onclick="add(7)">7</td>
+        <td onclick="add(8)">8</td>
+        <td onclick="add(9)">9</td>
+        <td onclick="clearResult()">C</td>
+        <td onclick="removeOneCharacter()">⬅</td>
+      </tr>
+      <tr>
+        <td onclick="add(4)">4</td>
+        <td onclick="add(5)">5</td>
+        <td onclick="add(6)">6</td>
+        <td onclick="add('*')">x</td>
+        <td onclick="add('/')">/</td>
+      </tr>
+      <tr>
+        <td onclick="add(1)">1</td>
+        <td onclick="add(2)">2</td>
+        <td onclick="add(3)">3</td>
+        <td onclick="add('+')">+</td>
+        <td onclick="add('-')">-</td>
+      </tr>
+      <tr>
+        <td onclick="add('.')">,</td>
+        <td onclick="add(0)">0</td>
+        <td id="equals" onclick="calc()">=</td>
+        <td onclick="sqrt(2)">²√</td>
+        <td onclick="pow(2)">x²</td>
+      </tr>
+    </table>
+
+    <script src="index.js"></script>
+  </body>
+</html>
